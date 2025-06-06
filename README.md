@@ -1,6 +1,6 @@
 # 📞 SyriaTel Customer Churn Prediction
 <sub>
-*This README provides a high-level overview of the project approach and key findings. For detailed analysis, step-by-step methodology, code implementation, and comprehensive visualizations, please refer to the complete notebook.*
+This README provides a high-level overview of the project approach and key findings. For detailed analysis, step-by-step methodology, code implementation, and comprehensive visualizations, please refer to the complete notebook.
 </sub>
 
 ## 🎯 Project Overview
@@ -26,18 +26,18 @@ The analysis uses telecommunications customer data containing:
 
 ## 🔬 Data Science Methodology
 
-### 1. Data Understanding & Exploration
+### 1️⃣ Data Understanding & Exploration
 - **Initial Assessment**: Dataset structure, missing values, and basic statistics
 - **Target Analysis**: Churn distribution and class imbalance evaluation
 - **Feature Analysis**: Identification of numerical vs. categorical variables
 
-### 2. Exploratory Data Analysis (EDA)
+### 2️⃣ Exploratory Data Analysis (EDA)
 - **Correlation Analysis**: Understanding relationships between features
 - **Distribution Analysis**: Examining feature distributions by churn status
 - **Categorical Analysis**: Cross-tabulation of categorical features with churn
 - **Pattern Discovery**: Identifying key indicators of customer churn
 
-### 3. Feature Engineering
+### 3️⃣ Feature Engineering
 - **New Feature Creation**: 
   - Average call duration metrics
   - Total usage aggregations across time periods
@@ -45,12 +45,12 @@ The analysis uses telecommunications customer data containing:
 - **Categorical Encoding**: Label encoding for categorical variables
 - **Data Preprocessing**: Handling data types and missing values
 
-### 4. Feature Selection
+### 4️⃣ Feature Selection
 - **Statistical Selection**: Using F-score to identify top predictive features
 - **Dimensionality Reduction**: Selecting the most relevant features for modeling
 - **Feature Importance Analysis**: Understanding which factors drive churn
 
-### 5. Model Development & Evaluation
+### 5️⃣ Model Development & Evaluation
 - **Multiple Algorithm Testing**:
   - Logistic Regression (with scaling)
   - Random Forest Classifier
@@ -59,12 +59,12 @@ The analysis uses telecommunications customer data containing:
 - **Cross-Validation**: 5-fold stratified cross-validation for robust evaluation
 - **Performance Metrics**: ROC-AUC, precision, recall, F1-score, and accuracy
 
-### 6. Model Optimization
+### 6️⃣ Model Optimization
 - **Hyperparameter Tuning**: Grid search optimization for the best performing model
 - **Performance Comparison**: Evaluating improvements from tuning
 - **Final Model Selection**: Choosing the optimal model configuration
 
-### 7. Business Impact Analysis
+### 7️⃣ Business Impact Analysis
 - **Confusion Matrix Interpretation**: Understanding true/false positives and negatives
 - **Cost-Benefit Analysis**: Evaluating business impact of model predictions
 - **Actionable Insights**: Translating model results into business recommendations
