@@ -119,7 +119,7 @@ project_directory/
 │   └── telecom.csv          # Dataset file
 ├── index.ipynb              # Jupyter Notebook
 ├── README.md                # This file
-└── results/                 # Generated visualizations and outputs
+└── presentation.pdf         # Non-technical Presentation
 ```
 
 ## 🚀 Usage Instructions
